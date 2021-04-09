@@ -16,6 +16,7 @@ public class DOMParserDAOImpl {
                     Element element = (Element) node;
                     dishes.add(new Dish(category, element.getElementsByTagName("name").item(0).getTextContent(),
                             element.getElementsByTagName("price").item(0).getTextContent(),
+                            element.getElementsByTagName("filing-time").item(0).getTextContent(),
                             element.getElementsByTagName("region").item(0).getTextContent()));
                 }
             }

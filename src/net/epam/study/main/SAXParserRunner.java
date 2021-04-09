@@ -17,10 +17,12 @@ public class SAXParserRunner {
 
         SAXParserDAOImpl saxParserDAO = new SAXParserDAOImpl();
         parser.parse(new File("resources/MenuXML"), saxParserDAO);
-        System.out.println("Sax parser: ");
+        System.out.println("========================================");
+        System.out.println("\n"+"Sax parser result: "+"\n");
+        System.out.println("========================================");
         for (Dish dish : SAXParserDAOImpl.dishes)
-            System.out.println(String.format("Категория %s, имя блюда: %s, его стоимость: %s, сделан в: %s",
-                    dish.getCategory(), dish.getName(), dish.getPrice(), dish.getRegion()));
+            System.out.println(String.format("Категория %s, имя блюда: %s, его стоимость: %s, время подачи: %s, сделан в: %s",
+                    dish.getCategory(), dish.getName(), dish.getPrice(), dish.getFilingTime(), dish.getRegion()));
     }
 
 }

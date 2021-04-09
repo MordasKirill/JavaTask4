@@ -28,10 +28,12 @@ public class DOMParserRunner {
         categoryList.add("desert");
         categoryList.add("drink");
         DOMParserDAOImpl.collectInformation(document, categoryList);
-        System.out.println("Dom parser: ");
+        System.out.println("========================================");
+        System.out.println("\n"+"Dom parser result: "+"\n");
+        System.out.println("========================================");
         for (Dish dish : DOMParserDAOImpl.dishes)
-            System.out.println(String.format("Категория: %s, название блюда: %s, стоимость: %s, сделан в: %s.",
-                    dish.getCategory(), dish.getName(), dish.getPrice(), dish.getRegion()));
+            System.out.println(String.format("Категория: %s, название блюда: %s, стоимость: %s, время подачи: %s, сделан в: %s.",
+                    dish.getCategory(), dish.getName(), dish.getPrice(), dish.getFilingTime(), dish.getRegion()));
 
     }
 }

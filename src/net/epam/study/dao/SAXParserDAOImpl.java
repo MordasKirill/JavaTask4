@@ -12,6 +12,7 @@ public class SAXParserDAOImpl extends DefaultHandler{
     private String category;
     private String name;
     private String price;
+    private String filingTime;
     private String region;
     public String lastElementName;
 
@@ -52,6 +53,9 @@ public class SAXParserDAOImpl extends DefaultHandler{
             if (lastElementName.equals("price")) {
                 price = information;
             }
+            if (lastElementName.equals("filing-time")) {
+                filingTime = information;
+            }
             if (lastElementName.equals("region")) {
                 region = information;
             }
@@ -60,11 +64,13 @@ public class SAXParserDAOImpl extends DefaultHandler{
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
-        if ( (name != null && !name.isEmpty()) && (price != null && !price.isEmpty()) && (region != null && !region.isEmpty()) ) {
-            dishes.add(new Dish(category, name, price, region));
+        if ( (name != null && !name.isEmpty()) && (price != null && !price.isEmpty()) &&
+                (filingTime != null && !filingTime.isEmpty()) && (region != null && !region.isEmpty()) ) {
+            dishes.add(new Dish(category, name, price, filingTime, region));
             category = null;
             name = null;
             price = null;
+            filingTime = null;
             region = null;
         }
     }

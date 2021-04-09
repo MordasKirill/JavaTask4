@@ -4,51 +4,61 @@
         <appetizer id="1">
             <name>Garlic bread</name>
             <price>$1.95</price>
+            <filing-time>2 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="2">
             <name>Soup of the day</name>
             <price>$4.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="3">
             <name>Olives</name>
             <price>$2.95</price>
+            <filing-time>2 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="4">
             <name>Prawn salad</name>
             <price>$4.95</price>
+            <filing-time>7 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="5">
             <name>Mozzarella salad</name>
             <price>$4.50</price>
+            <filing-time>10 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="6">
             <name>Potato chips</name>
             <price>$2.00</price>
+            <filing-time>2 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="7">
             <name>Sandwich</name>
             <price>$2.95</price>
+            <filing-time>2 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="8">
             <name>Hard-bolled eggs</name>
             <price>$7.95</price>
+            <filing-time>10 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="9">
             <name>Cheese</name>
             <price>$7.95</price>
+            <filing-time>2 min</filing-time>
             <region>USA</region>
         </appetizer>
         <appetizer id="10">
             <name>Cheese plate</name>
             <price>$7.95</price>
+            <filing-time>2 min</filing-time>
             <region>USA</region>
         </appetizer>
     </appetizers>
@@ -56,51 +66,61 @@
         <soup id="1">
             <name>Broth</name>
             <price>$4.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="2">
             <name>Cabbage soup</name>
+            <filing-time>15 min</filing-time>
             <price>$3.95</price>
             <region>USA</region>
         </soup>
         <soup id="3">
             <name>Milk soup</name>
             <price>$3.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="4">
             <name>Pea soup</name>
             <price>$4.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="5">
             <name>Cream soup with trout</name>
             <price>$6.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="6">
             <name>Cream soup</name>
             <price>$4.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="7">
             <name>Tomato soup</name>
             <price>$4.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="8">
             <name>Homemade noodles with chicken</name>
             <price>$7.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="9">
             <name>Cream of mushrooms</name>
             <price>$7.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
         <soup id="10">
             <name>Creamy ear Finnish</name>
             <price>$10.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </soup>
     </soups>
@@ -108,76 +128,91 @@
         <meat-dish id="1">
             <name>Pork chops</name>
             <price>$10.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="2">
             <name>Spare ribs</name>
             <price>$11.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="3">
             <name>Bacon</name>
             <price>$9.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="4">
             <name>Game pie</name>
             <price>$7.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="5">
             <name>Grilled veal fillet</name>
             <price>$12.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="6">
             <name>Fillet steak</name>
             <price>$12.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="7">
             <name>Beef Wellington</name>
             <price>$14.95</price>
+            <filing-time>25 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="8">
             <name>Goat</name>
             <price>$14.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="9">
             <name>Kebab</name>
             <price>$10.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="10">
             <name>Roast duck</name>
             <price>$14.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="11">
             <name>Mutton</name>
             <price>$13.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="12">
             <name>Meatballs</name>
             <price>$12.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="13">
             <name>Chops</name>
             <price>$14.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="14">
             <name>Beefsteak</name>
             <price>$15.95</price>
+            <filing-time>25 min</filing-time>
             <region>USA</region>
         </meat-dish>
         <meat-dish id="15">
             <name>Ham</name>
             <price>$8.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </meat-dish>
     </meat-dishes>
@@ -185,41 +220,49 @@
         <poultry id="1">
             <name>Turkey</name>
             <price>$10.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="2">
             <name>Chicken</name>
             <price>$7.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="3">
             <name>Buffalo wings</name>
             <price>$12.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="4">
             <name>Partridge</name>
             <price>$12.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="5">
             <name>Grouse</name>
             <price>$15.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="6">
             <name>Quail</name>
             <price>$14.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="7">
             <name>Duck</name>
             <price>$17.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
         <poultry id="8">
             <name>Pheasant</name>
             <price>$11.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </poultry>
     </poultrys>
@@ -227,76 +270,91 @@
         <fish-and-sea-dish id="1">
             <name>Mussels</name>
             <price>$15.95</price>
+            <filing-time>25 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="2">
             <name>Sprat</name>
             <price>$12.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="3">
             <name>Red caviar</name>
             <price>$15.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="4">
             <name>Black caviar</name>
             <price>$30.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="5">
             <name>Shrimps</name>
             <price>$20.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="6">
             <name>Crayfish</name>
             <price>$25.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="7">
             <name>Herring</name>
             <price>$22.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="8">
             <name>Sushi</name>
             <price>$19.95</price>
+            <filing-time>10 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="9">
             <name>Cod</name>
             <price>$15.95</price>
+            <filing-time>25 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="10">
             <name>Salmon</name>
             <price>$20.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="11">
             <name>Trout</name>
             <price>$25.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="12">
             <name>Pike</name>
             <price>$22.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="13">
             <name>Lobster</name>
             <price>$30.95</price>
+            <filing-time>30 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="14">
             <name>Halibut</name>
             <price>$20.95</price>
+            <filing-time>20 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
         <fish-and-sea-dish id="15">
             <name>Eel</name>
             <price>$28.95</price>
+            <filing-time>15 min</filing-time>
             <region>USA</region>
         </fish-and-sea-dish>
     </fish-and-sea-foods>
@@ -304,76 +362,91 @@
         <desert id="1">
             <name>Ice cream</name>
             <price>$2.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>Russia</region>
         </desert>
         <desert id="2">
             <name>Cake</name>
-            <price>$..95</price>
-            <region>USA</region>
+            <price>$4.95</price>
+            <filing-time>5 min</filing-time>
+            <region>France</region>
         </desert>
         <desert id="3">
             <name>Wafer</name>
             <price>$1.95</price>
-            <region>USA</region>
+            <filing-time>2 min</filing-time>
+            <region>France</region>
         </desert>
         <desert id="4">
             <name>Pudding</name>
             <price>$4.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>France</region>
         </desert>
         <desert id="5">
             <name>Jam</name>
             <price>$3.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="6">
             <name>Fruit salad</name>
             <price>$4.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="7">
             <name>Cupcake</name>
             <price>$2.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="8">
             <name>Sweet roll cake</name>
             <price>$3.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="9">
             <name>Croissant</name>
             <price>$3.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>France</region>
         </desert>
         <desert id="10">
             <name>Muffin</name>
             <price>$3.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="11">
             <name>Souffle</name>
             <price>$3.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>France</region>
         </desert>
         <desert id="12">
             <name>Doughnut</name>
             <price>$4.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="13">
             <name>Eclair</name>
             <price>$4.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>France</region>
         </desert>
         <desert id="14">
             <name>Crepe</name>
             <price>$5.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
         <desert id="15">
             <name>Puff</name>
             <price>$5.95</price>
+            <filing-time>5 min</filing-time>
             <region>USA</region>
         </desert>
     </deserts>
@@ -381,46 +454,55 @@
         <drink id="1">
             <name>Shake</name>
             <price>$6.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="2">
             <name>Milk</name>
             <price>$3.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="3">
             <name>Soda</name>
             <price>$2.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="4">
             <name>Water</name>
             <price>$1.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="5">
             <name>Cream</name>
             <price>$3.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="6">
             <name>Milk shake</name>
             <price>$4.95</price>
+            <filing-time>10 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="7">
             <name>Coke</name>
             <price>$1.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="8">
             <name>Lemonade</name>
             <price>$2.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="9">
             <name>Juice</name>
             <price>$2.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
     </soft-drinks>
@@ -428,94 +510,112 @@
         <drink id="1">
             <name>Cocoa</name>
             <price>$2.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="2">
             <name>Hot chocolate</name>
             <price>$3.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>Brasilia</region>
         </drink>
         <drink id="3">
             <name>Tea</name>
             <price>$1.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>India</region>
         </drink>
         <drink id="4">
             <name>Herbal tea</name>
             <price>$2.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>India</region>
         </drink>
         <drink id="5">
             <name>Espresso</name>
             <price>$0.95</price>
-            <region>USA</region>
+            <filing-time>5 min</filing-time>
+            <region>Italy</region>
         </drink>
         <drink id="6">
             <name>American</name>
             <price>$1.95</price>
-            <region>USA</region>
+            <filing-time>6 min</filing-time>
+            <region>Italy</region>
         </drink>
         <drink id="7">
             <name>Cappuccino</name>
             <price>$2.95</price>
-            <region>USA</region>
+            <filing-time>7 min</filing-time>
+            <region>Italy</region>
         </drink>
         <drink id="8">
             <name>Latte</name>
             <price>$4.95</price>
-            <region>USA</region>
+            <filing-time>7 min</filing-time>
+            <region>Italy</region>
         </drink>
     </hot-drinks>
     <alchohol>
         <drink id="1">
             <name>Brandy</name>
             <price>$8.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="2">
             <name>Root beer</name>
             <price>$5.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>Germany</region>
         </drink>
         <drink id="3">
             <name>Beer</name>
             <price>$5.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>Germany</region>
         </drink>
         <drink id="4">
             <name>Lager</name>
             <price>$6.95</price>
+            <filing-time>3 min</filing-time>
             <region>USA</region>
         </drink>
         <drink id="5">
             <name>Wine</name>
             <price>$7.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>Italy</region>
         </drink>
         <drink id="6">
             <name>Vodka</name>
             <price>$6.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>RUSSIA</region>
         </drink>
         <drink id="7">
             <name>Ale</name>
             <price>$9.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>England</region>
         </drink>
         <drink id="8">
             <name>Tequila</name>
             <price>$9.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>Mexico</region>
         </drink>
         <drink id="9">
             <name>Champagne</name>
             <price>$10.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>France</region>
         </drink>
         <drink id="10">
             <name>Whiskey</name>
             <price>$12.95</price>
-            <region>USA</region>
+            <filing-time>3 min</filing-time>
+            <region>Scotland</region>
         </drink>
     </alchohol>
 </restaurant-menu>
