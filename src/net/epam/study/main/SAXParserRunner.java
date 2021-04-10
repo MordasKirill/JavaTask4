@@ -14,7 +14,6 @@ public class SAXParserRunner {
     public static void runner() throws ParserConfigurationException, SAXException, IOException{
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
-
         SAXParserDAOImpl saxParserDAO = new SAXParserDAOImpl();
         parser.parse(new File("resources/MenuXML"), saxParserDAO);
         System.out.println("========================================");

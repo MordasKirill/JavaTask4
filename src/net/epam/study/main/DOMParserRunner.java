@@ -17,7 +17,6 @@ public class DOMParserRunner {
     public static void runner() throws ParserConfigurationException, SAXException, IOException{
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-
         Document document = builder.parse(new File("resources/MenuXML"));
         ArrayList<String> categoryList = new ArrayList<>();
         categoryList.add("appetizer");

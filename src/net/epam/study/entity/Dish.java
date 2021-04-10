@@ -42,18 +42,39 @@ public class Dish {
     public String getFilingTime() {
         return filingTime;
     }
-
     public String getRegion() {
         return region;
     }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public void setFilingTime(String filingTime) {
+        this.filingTime = filingTime;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
     @Override
     public String toString() {
-        return "Dish{" +
-                "name='" + name + '\'' +
+        return "Dish details [" +
+                "category='" + category + '\'' +
+                ", name='" + name + '\'' +
                 ", price='" + price + '\'' +
-                ", price='" + filingTime + '\'' +
+                ", filing time='" + filingTime + '\'' +
                 ", region='" + region + '\'' +
-                '}';
+                ']';
     }
 
     @Override
