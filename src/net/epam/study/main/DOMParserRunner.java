@@ -14,10 +14,10 @@ import java.util.ArrayList;
 import org.xml.sax.SAXException;
 
 public class DOMParserRunner {
-    public static void runner() throws ParserConfigurationException, SAXException, IOException{
+    public static void runner() throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        Document document = builder.parse(new File("resources/MenuXML"));
+        Document document = builder.parse(new File("resources/MenuXML.xml"));
         ArrayList<String> categoryList = new ArrayList<>();
         categoryList.add("appetizer");
         categoryList.add("soup");

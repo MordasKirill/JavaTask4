@@ -15,7 +15,7 @@ public class SAXParserRunner {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
         SAXParserDAOImpl saxParserDAO = new SAXParserDAOImpl();
-        parser.parse(new File("resources/MenuXML"), saxParserDAO);
+        parser.parse(new File("resources/MenuXML.xml"), saxParserDAO);
         System.out.println("========================================");
         System.out.println("\n"+"Sax parser result: "+"\n");
         System.out.println("========================================");

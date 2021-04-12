@@ -8,7 +8,7 @@ import java.util.List;
 
 public class STAXParserRunner {
     public static void runner(){
-        String fileName = "resources/MenuXML";
+        String fileName = "resources/MenuXML.xml";
         List<Dish> dishList = STAXParserDAOImpl.collectInformation(fileName);
         System.out.println("========================================");
         System.out.println("\n"+"Stax parser result: "+"\n");

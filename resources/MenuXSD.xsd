@@ -1,0 +1,161 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="price" type="xs:string"/>
+    <xs:element name="filing-time" type="xs:string"/>
+    <xs:element name="region" type="xs:string"/>
+    <xs:element name="appetizer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="soup">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:choice>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="meat-dish">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="poultry">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fish-and-sea-dish">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="desert">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="drink">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="price"/>
+                <xs:element ref="filing-time"/>
+                <xs:element ref="region"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="appetizers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="appetizer" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="soups">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="soup" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="meat-dishes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="meat-dish" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="poultrys">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="poultry" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="fish-and-sea-foods">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="fish-and-sea-dish" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="deserts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="desert" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="soft-drinks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="drink" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hot-drinks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="drink" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alchohol">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="drink" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="restaurant-menu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="appetizers"/>
+                <xs:element ref="soups"/>
+                <xs:element ref="meat-dishes"/>
+                <xs:element ref="poultrys"/>
+                <xs:element ref="fish-and-sea-foods"/>
+                <xs:element ref="deserts"/>
+                <xs:element ref="soft-drinks"/>
+                <xs:element ref="hot-drinks"/>
+                <xs:element ref="alchohol"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

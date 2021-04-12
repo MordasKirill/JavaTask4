@@ -1,16 +1,14 @@
 package net.epam.study.runner;
 
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import net.epam.study.service.XMLValidator;
 import net.epam.study.main.DOMParserRunner;
 import net.epam.study.main.SAXParserRunner;
 import net.epam.study.main.STAXParserRunner;
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
 
 public class CommonRunner {
-    public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException {
+    public static void main(String[] args) throws Exception {
+        boolean xmlCheckResult = XMLValidator.checkXMLForXSD("resources/MenuXML.xml", "resources/MenuXSD.xsd");
+        System.out.println("\n"+"XML соответствует XSD : " + xmlCheckResult+"\n");
         DOMParserRunner.runner();
         SAXParserRunner.runner();
         STAXParserRunner.runner();

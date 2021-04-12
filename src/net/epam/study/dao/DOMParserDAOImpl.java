@@ -1,7 +1,15 @@
 package net.epam.study.dao;
 
+import jdk.internal.org.xml.sax.SAXException;
 import net.epam.study.entity.Dish;
 import org.w3c.dom.*;
+
+import javax.xml.XMLConstants;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
+import java.io.File;
 import java.util.ArrayList;
 
 public class DOMParserDAOImpl {
