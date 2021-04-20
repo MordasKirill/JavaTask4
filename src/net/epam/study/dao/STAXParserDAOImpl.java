@@ -18,9 +18,8 @@ import java.util.List;
 
 public class STAXParserDAOImpl {
 
-
     public static List<Dish> collectInformation(String fileName) {
-        List<Dish> studentsList = new ArrayList<>();
+        List<Dish> dishList = new ArrayList<>();
         Dish dish = new Dish();
         XMLInputFactory xmlInputFactory = XMLInputFactory.newInstance();
         String category = null;
@@ -80,7 +79,7 @@ public class STAXParserDAOImpl {
                                 break;
                         }
                         if (category!=null&&name!=null&&price!=null&&filingTime!=null&&region!=null) {
-                            studentsList.add(new Dish(category, name, price, filingTime, region));
+                            dishList.add(new Dish(category, name, price, filingTime, region));
                             category = null;
                             name = null;
                             price = null;
@@ -92,6 +91,6 @@ public class STAXParserDAOImpl {
             } catch (FileNotFoundException | XMLStreamException exc) {
                 exc.printStackTrace();
             }
-            return studentsList;
+            return dishList;
         }
     }
